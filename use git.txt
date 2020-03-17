@@ -1,0 +1,17 @@
+1.配置用户
+git config --global user.name "用户名"
+git config --global user.email "用户邮箱"
+2.建立本地仓库
+git init
+3.查看git状态
+git status
+4.添加工作站
+git add .
+5.提交到本地仓库
+git commit -m "注释"
+6.生成SSH
+ssh-keygen -t rsa -C "邮箱地址"
+7.推送本地仓到远程仓
+git push origin master 
+8.取消登录输入用户名和密码
+git config --global credential.helper store
