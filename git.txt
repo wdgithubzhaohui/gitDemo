@@ -1,0 +1,24 @@
+1.设置账户(需要和github账户设置一致)
+git config --global user.name "wdgithubzhaohui"
+git config --global user.email "344739642@qq.com"
+2.查看设置
+git config --list
+user.name=xxx
+user.email=xxx@foxmail.com
+3.创建git本地仓库
+git init
+4.查看git状态
+git status
+"""
+一般来说会显示需要提交的文件（uncommited）和未追踪的文件（untracked）
+uncommited：已有的，刚被修改尚未提交的
+untracked：原先没有的，新建的 
+"""
+5.添加git文件到暂存区（需要和版本库区分） 
+git add <name>
+6.git提交文件
+git commit -m "add a function in test.java"
+-m表示注释，为提交时的说明，必须要有！
+7.git删除文件（夹）
+git rm test.txt          //删除文件
+git rm -r filebook     //删除文件夹
