@@ -1,0 +1,5 @@
+git config --global credential.helper store
+推送远程仓库
+git push origin master
+添加远程仓库
+git remote add origin <远程仓库地址>
